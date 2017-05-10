@@ -1,0 +1,44 @@
+{
+  "name": "mpkg-packager",
+  "version": "0.1.0",
+  "description": "wrapper lib for mpkg server",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "coverage": "nyc npm test && nyc report"
+  },
+  "author": "Dave Weaver (http://daveweaver.net)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davideweaver/mpkg-packager.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.2",
+    "sinon": "^2.2.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "async-file": "^2.0.2",
+    "cacheman": "^2.2.1",
+    "cacheman-file": "^0.2.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "xml2js": "^0.4.17"
+  }
+}
