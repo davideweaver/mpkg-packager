@@ -1,0 +1,24 @@
+{
+  "env": {
+    // For RN example development
+    "development": {
+      "presets": ["env"],
+      "plugins": []
+    },
+    // For Jest
+    "test": {
+      "presets": ["react-native"],
+      "plugins": []
+    },
+    // For publishing to NPM for RN
+    "publish-rn": {
+      "presets": ["react-native-syntax"],
+      "plugins": []
+    },
+    // For publishing to NPM for node
+    "publish-node": {
+      "presets": ["env"],
+      "plugins": []
+    }
+  }
+}
