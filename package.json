@@ -44,6 +44,6 @@
     "fs": "0.0.1-security",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
-    "xml2js": "github:davideweaver/xml2js",
+    "xml2js": "github:davideweaver/xml2js"
   }
 }
