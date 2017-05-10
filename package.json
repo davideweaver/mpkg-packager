@@ -4,8 +4,7 @@
   "description": "wrapper lib for mpkg server",
   "main": "src/index.js",
   "sources": {
-    "react-native-v1": "lib-rn/index.js",
-    "web": "lib/index.web.js"
+    "react-native-v1": "lib-rn/index.js"
   },
   "files": [
     "lib",
@@ -42,8 +41,9 @@
     "async-file": "^2.0.2",
     "cacheman": "^2.2.1",
     "cacheman-file": "^0.2.1",
+    "fs": "0.0.1-security",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
-    "xml2js": "^0.4.17"
+    "xml2js": "github:davideweaver/xml2js",
   }
 }
